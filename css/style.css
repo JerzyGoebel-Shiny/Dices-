@@ -1,0 +1,71 @@
+#square1,#square2,#square3,#square4,#square5,#square6 {
+    background-image: url('/cube.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 1%;
+    box-shadow: 0px 0px 14px #f0df81 inset;
+    padding: 50px;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    /* transition: all 0.5s; */
+}
+
+#square1{
+  transform-style: preserve-3d;
+
+}
+
+#square2{
+  transform: rotateX(90deg) translateZ(-5px) translateY(55px) translateX(-50px);
+}
+
+#square3{
+  transform: rotateX(180deg) translateZ(-110px) translateY(50px) translateX(-50px);
+}
+
+#square4{
+  transform: rotateX(270deg) translateZ(-100px) translateY(-55px) translateX(-50px);
+}
+
+#square5{
+  transform: rotateY(90deg) translateX(-55px) translateY(-50px) translateZ(5px);
+}
+
+#square6{
+  transform: rotateY(270deg) translateX(55px) translateY(-50px) translateZ(105px);
+}
+
+#container{
+  position: relative;
+height: 150px;
+width: 150px;
+margin: 200px auto;
+padding: 10px;
+  transform-style: preserve-3d;
+  perspective: 400px
+
+}
+
+#sliders {
+    display: none;
+    margin: 30px;
+    width: 200px;
+}
+
+
+body {
+    background: #1b1816;
+}
+
+#backlight {
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    background: #f0df81;
+    margin: -40px;
+    transform: translateZ(-100px);
+    border-radius: 50%;
+    -webkit-filter: blur(100px);
+    transition: all 1s;
+}
