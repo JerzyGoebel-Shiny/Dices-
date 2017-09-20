@@ -1,13 +1,13 @@
 #square1,#square2,#square3,#square4,#square5,#square6 {
-    background-image: url('/cube.png');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    border-radius: 1%;
-    box-shadow: 0px 0px 14px #f0df81 inset;
-    padding: 50px;
-    position: absolute;
-    width: 12px;
-    height: 12px;
+  background-image: url('/cube.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 10%;
+  box-shadow: 0px 0px 25px #f0df81 inset, 0px 0px 15px #f0df81;
+  padding: 50px;
+  position: absolute;
+  width: 12px;
+  height: 12px;
     /* transition: all 0.5s; */
 }
 
