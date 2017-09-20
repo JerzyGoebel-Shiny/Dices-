@@ -1,0 +1,33 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+
+<body>
+  <div id="container">
+    <div id="backlight"></div>
+    <!--Parent wall contains child walls - move one, others follow. Profit.-->
+<div id="square1">
+                    <div id="square2"></div>
+                    <div id="square3"></div>
+                    <div id="square4"></div>
+                    <div id="square5"></div>
+                    <div id="square6"></div>
+                  </div>
+
+</div>
+<!--deprecated, unhide via css, toggle in place of mouseX/Y method -->
+<div id="sliders">
+  <input type="range" min="1" max="360" value="0" class="slider" id="slider1">
+  <input type="range" min="1" max="360" value="50" class="slider" id="slider2">
+</div>
+<!--
+<div id="variants">
+  <input type="drop">
+</div>
+-->
+
+</body>
+<script type="text/javascript" src="main.js"></script>
+</html>
